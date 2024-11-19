@@ -1,0 +1,8 @@
+name: AcidAuction
+version: '${project.version}'
+main: ru.nokton.acidauction.Main
+api-version: '1.16'
+commands:
+  auc:
+    aliases: [auction, ah]
+    description: Open the auction and sell your items.
